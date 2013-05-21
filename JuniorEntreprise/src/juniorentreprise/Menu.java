@@ -53,6 +53,8 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Etude");
 
+        listeEtude.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Application mobile AUCHAN" }));
+
         modEtude.setText("Modifier");
 
         supEtude.setText("Supprimer");
@@ -69,7 +71,7 @@ public class Menu extends javax.swing.JFrame {
                 .addGroup(menuEtudeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(modEtude, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(listeEtude, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(supEtude, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
+                    .addComponent(supEtude, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(addEtude, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -125,7 +127,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(supEtudiant)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(addEtudiant)
-                .addGap(0, 11, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         menuEntreprise.setBorder(javax.swing.BorderFactory.createEtchedBorder());
