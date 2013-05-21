@@ -1,0 +1,25 @@
+Tue May 21 16:52:02 CEST 2013 : Apache Derby Serveur réseau - 10.8.1.2 - (1095077) démarré et prêt à accepter les connexions sur le port 1527
+----------------------------------------------------------------
+Tue May 21 16:52:03 CEST 2013:
+Amorçage de Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077) : instance a816c00e-013e-c793-598e-ffff9e82647f 
+dans le répertoire de base de données C:\Users\Rémy\SkyDrive\Documents\Works\Projet Pulpe\Pulpe\Pulpe\JuniorEntreprise\data\Pulpe  avec le chargeur de classe sun.misc.Launcher$AppClassLoader@68ffab0a
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_17-b02
+user.dir=C:\Program Files\glassfish-3.1.2.2\javadb
+derby.system.home=C:\Users\Rémy\SkyDrive\Documents\Works\Projet Pulpe\Pulpe\Pulpe\JuniorEntreprise\data
+Chargeur de classe de la base de données démarré - derby.database.classpath=''
+----------------------------------------------------------------
+Tue May 21 16:52:14 CEST 2013:
+Arrêt de l'instance a816c00e-013e-c793-598e-ffff9e82647f avec le chargeur de classe C:\Users\Rémy\SkyDrive\Documents\Works\Projet Pulpe\Pulpe\Pulpe\JuniorEntreprise\data\Pulpe 
+Tue May 21 16:52:14 CEST 2013 Thread[DRDAConnThread_3,5,main] (DATABASE = Pulpe), (DRDAID = {2}), Arrêt de la base de données 'Pulpe'.
+----------------------------------------------------------------
+Tue May 21 16:52:22 CEST 2013:
+Amorçage de Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077) : instance 6c44409f-013e-c793-598e-ffff9e82647f 
+dans le répertoire de base de données C:\Users\Rémy\SkyDrive\Documents\Works\Projet Pulpe\Pulpe\Pulpe\JuniorEntreprise\data\Pulpe  avec le chargeur de classe sun.misc.Launcher$AppClassLoader@68ffab0a
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_17-b02
+user.dir=C:\Program Files\glassfish-3.1.2.2\javadb
+derby.system.home=C:\Users\Rémy\SkyDrive\Documents\Works\Projet Pulpe\Pulpe\Pulpe\JuniorEntreprise\data
+Chargeur de classe de la base de données démarré - derby.database.classpath=''
