@@ -54,6 +54,11 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setText("Etude");
 
         modEtude.setText("Modifier");
+        modEtude.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                modifierEtude(evt);
+            }
+        });
 
         supEtude.setText("Supprimer");
 
@@ -125,7 +130,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(supEtudiant)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(addEtudiant)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 11, Short.MAX_VALUE))
         );
 
         menuEntreprise.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -184,7 +189,7 @@ public class Menu extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
+                .addGap(85, 85, 85)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(menuEtudiant, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(menuEtude, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -194,6 +199,10 @@ public class Menu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void modifierEtude(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_modifierEtude
+        
+    }//GEN-LAST:event_modifierEtude
 
     /**
      * @param args the command line arguments
