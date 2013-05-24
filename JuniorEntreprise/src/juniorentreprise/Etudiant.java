@@ -11,6 +11,7 @@ import java.util.*;
 /** @pdOid b90126f6-bd83-4291-890d-c954ee24dd83 */
 public class Etudiant {
    /** @pdOid 7ba2c3fe-4e4b-4776-82e9-daad1de3d4ff */
+   private static int nbIdEtudiant = 1;
    private int idEtudiant;
    /** @pdOid 7a3cfdb6-a172-4bd4-9e6b-540f9bc91ac2 */
    private String nomEtudiant;
@@ -23,5 +24,13 @@ public class Etudiant {
    public Remboursement paye;
    /** @pdRoleInfo migr=no name=Acompte assc=demande coll=java.util.Collection impl=java.util.HashSet mult=1..1 */
    public Acompte acompte;
+
+    public Etudiant(String nomEtudiant, String prenomEtudiant, String telephoneEtudiant) {
+        this.nomEtudiant = nomEtudiant;
+        this.prenomEtudiant = prenomEtudiant;
+        this.telephoneEtudiant = telephoneEtudiant;
+        this.idEtudiant=nbIdEtudiant++;
+    }
+   
 
 }

@@ -8,6 +8,10 @@ package juniorEntreprise;
  *
  * @author p0903816
  */
+
+import java.lang.Class.*;
+import ;
+
 public class Menu extends javax.swing.JFrame {
 
     /**
@@ -26,6 +30,8 @@ public class Menu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        list1 = java.beans.Beans.isDesignTime() ? java.util.Collections.emptyList() : ((javax.persistence.Query)null).getResultList();
+        query1 = java.beans.Beans.isDesignTime() ? null : ((javax.persistence.EntityManager)null).createQuery("SELECT IDETUDIANT, NOMETUDIANT, PRENOMETUDIANT, TELEPHONEETUDIANT FROM ETUDIANT;");
         menuEtude = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         listeEtude = new javax.swing.JComboBox();
@@ -130,7 +136,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(supEtudiant)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(addEtudiant)
-                .addGap(0, 11, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         menuEntreprise.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -245,6 +251,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private java.util.List list1;
     private javax.swing.JComboBox listeEntreprise;
     private javax.swing.JComboBox listeEtude;
     private javax.swing.JComboBox listeEtudiant;
@@ -254,6 +261,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JButton modEntreprise;
     private javax.swing.JButton modEtude;
     private javax.swing.JButton modEtudiant;
+    private javax.persistence.Query query1;
     private javax.swing.JButton supEntreprise;
     private javax.swing.JButton supEtude;
     private javax.swing.JButton supEtudiant;

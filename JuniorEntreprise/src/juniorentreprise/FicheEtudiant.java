@@ -8,12 +8,12 @@ package juniorentreprise;
  *
  * @author Rémy
  */
-public class InterfaceModifEtudiant extends javax.swing.JPanel {
+public class FicheEtudiant extends javax.swing.JPanel {
 
     /**
-     * Creates new form InterfaceModifEtudiant
+     * Creates new form FicheEtudiant
      */
-    public InterfaceModifEtudiant() {
+    public FicheEtudiant() {
         initComponents();
     }
 
@@ -48,6 +48,8 @@ public class InterfaceModifEtudiant extends javax.swing.JPanel {
         jLabel3.setForeground(new java.awt.Color(255, 0, 0));
         jLabel3.setText("Identifiant");
 
+        jTextField3.setEditable(false);
+
         jButton1.setText("Annuler");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
@@ -56,7 +58,7 @@ public class InterfaceModifEtudiant extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(LABnom, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -65,16 +67,11 @@ public class InterfaceModifEtudiant extends javax.swing.JPanel {
                             .addComponent(jLabel3))
                         .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                        .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
-                                        .addComponent(jTextField2))
-                                    .addComponent(TXTnom, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 0, Short.MAX_VALUE))))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.DEFAULT_SIZE, 100, Short.MAX_VALUE)
+                                .addComponent(jTextField2))
+                            .addComponent(TXTnom, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jToggleButton1)
                         .addGap(18, 18, 18)
